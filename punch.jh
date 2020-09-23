@@ -1,0 +1,6 @@
+entity Punch {
+	user String
+	lat BigDecimal
+	long BigDecimal
+	punchtime LocalDate
+}
