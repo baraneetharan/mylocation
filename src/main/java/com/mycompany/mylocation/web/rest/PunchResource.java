@@ -21,6 +21,7 @@ import java.util.Optional;
 /**
  * REST controller for managing {@link com.mycompany.mylocation.domain.Punch}.
  */
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api")
 @Transactional
